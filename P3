@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int a = 10;
+    float b = 5.5;
+    char c = 'A';
+    const int PI = 3;
+    printf("te %d sttttt  %.2f helloooooooooo %c %d", a, b, c, PI);
+    return 0;
+}
+
+OUTPUT
+
+te 10 sttttt  5.50 helloooooooooo A 3
